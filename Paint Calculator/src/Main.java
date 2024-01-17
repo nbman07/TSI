@@ -10,6 +10,7 @@ public class Main {
         float squareMetrePerLitre = Float.parseFloat(reader.nextLine());
         System.out.println("What is the price of a paint can?");
         float paintPrice = Float.parseFloat(reader.nextLine());
+        
         System.out.println("How many litres of paint is in a paint can?");
         float litresInPot = Float.parseFloat(reader.nextLine());
         System.out.println("Is the room square or rectangular? Y/N");
