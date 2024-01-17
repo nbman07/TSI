@@ -8,9 +8,9 @@ public class Main {
         float dimensionsOfWall = 0;
         System.out.println("What is the square metre per litre listed on your paint can?");
         float squareMetrePerLitre = Float.parseFloat(reader.nextLine());
-        System.out.println("What is the price of a paint pot?");
+        System.out.println("What is the price of a paint can?");
         float paintPrice = Float.parseFloat(reader.nextLine());
-        System.out.println("How many litres of paint is in a paint pot?");
+        System.out.println("How many litres of paint is in a paint can?");
         float litresInPot = Float.parseFloat(reader.nextLine());
         System.out.println("Is the room square or rectangular? Y/N");
         String squareOrRectangular = reader.nextLine();
@@ -45,7 +45,6 @@ public class Main {
                         areaToPaint += (float) ((shapeWidth / 2) * (shapeWidth / 2) * Math.PI);
 
                 }
-//                System.out.println(areaToPaint);
             }
 
         }
